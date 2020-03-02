@@ -384,6 +384,9 @@
 		background-position-y: 30px;
 		margin-top: initial;
 	}
+	.cistern{
+		margin:0 30px;
+	}
 	.banner_ljgm {
 		transform: translateX(-50%) scale(.5);
 		top: 87%;
