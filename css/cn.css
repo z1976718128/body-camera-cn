@@ -26,6 +26,21 @@
 .lefs{
 	background-position-x: -176px !important;
 }
+.gms{
+	width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #038fcb;
+    border-radius: 35px;
+    text-align: center;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+}
 .gm {
 	width: 254px;
 	height: 57px;
@@ -386,6 +401,13 @@
 	}
 	.cistern{
 		margin:0 30px;
+	}
+	.S .dialog .section-title{
+		font-size: 20px !important;
+		line-height: 1.4;
+	}
+	.gms {
+		margin-bottom: 20px;
 	}
 	.banner_ljgm {
 		transform: translateX(-50%) scale(.5);

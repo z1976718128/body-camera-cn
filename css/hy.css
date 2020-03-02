@@ -678,8 +678,11 @@ a.active {
 .S .dialog .section-title { font-size: 24px; margin-bottom: 15px; }
 
 .dialog { z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);display: flex; align-items: center; justify-content: center; }
-.dialog > .container { max-width: 600px; width: 90%; position: relative; background-color: #fff; padding: 20px 20px 10px;}
-.dialog .section-title { font-size: 26px; margin-bottom: 20px; text-align: center; }
+.dialog > .container { max-width: 600px; width: 90%;	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); background-color: #fff; padding: 20px 20px 30px;}
+.dialog .section-title { font-size: 22px; margin-bottom: 20px; text-align: center; }
 .dialog .section-title::before,
 .dialog .section-title::after { display: none; }
 .dialog .tips { font-size: 14px; line-height: 1.8em; color: #666; text-align: center; margin-bottom: 20px; }
